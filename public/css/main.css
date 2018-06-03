@@ -1,0 +1,741 @@
+
+
+/*
+* 1 - #01a3d2  سماوي
+* 2 - #fe6400 برتقالي
+* 3 - #25d366 اخضر
+*/
+
+@font-face {
+    font-family: "Al-Matan";
+    src: url("/fonts/GE_Dinar_One_Medium.otf") format('otf');
+}
+
+
+
+body {
+    font-family: 'Conv_GE_Dinar_One_Medium';
+    font-weight: normal;
+    background: url(/images/bg.gif) repeat-x #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-thumbnail{
+    border: 1px solid #bf9b30;
+}
+.img-responsive {
+    width: 100%}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a:hover, a:focus {
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.time{
+    background-color: #25d366;
+    height: 37px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 37px;
+
+}
+.topContent{
+    position: relative;
+    overflow: hidden;
+    width: 84%;
+    margin: auto;
+}
+.topContent .topLogos{
+    margin-bottom: 40px;
+    margin-top: 2px;
+}
+.topContent .topLogos img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+.topContent .topLogos img.heights{
+    height: 80px;
+}
+.topContent .topLogos .mansa{
+    font-size: 17px;
+}
+.topContent .topLogos .Image{
+    width: 80px;
+}
+.topContent h1{
+    margin: 15px 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: #555
+}
+.topContent .us {
+    margin-top:-40px;
+    margin-left: -60px;
+}
+.topContent .us .toleft{
+    margin-left: 0%;
+}
+
+.topContent .us img.son{
+    margin-top: 15px;
+}
+.topContent .sentences{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.topContent .sentences marquee{
+    margin-top: 29px;
+    border: 1px solid #ccc;
+    padding: 5px 0;
+    line-height: 17px;
+    margin-left: -16px;
+    border-radius: 7px;
+}
+.topContent .sentences img{
+}
+.topContent .commission{
+    margin-bottom: 30px;
+}
+.topContent .commission h3{
+    font-size: 30px;
+    text-shadow: 0px 6px #DDD
+}
+.topContent .commission img.asr{
+    margin-left: 12px;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 29px;
+    width: 95px;
+    height: 70px;
+}
+.topContent .commission b{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.navagation .navbar {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navagation .navbar-inverse {
+    background-color: #01a3d2;
+    color: #fff;
+}
+.navagation .navbar-inverse .navbar-brand {
+    float: right;
+    height: 70px;
+    padding: 20px 30px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+}
+.navagation .navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+    margin-top: 3px;
+    padding: 20px;
+    font-size: 16px;
+    font-style: normal;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.navagation .dropdown-menu > li > a{
+    color: #FFFFFF;
+}
+.navagation .navbar-nav > li > .dropdown a:hover{
+    background-color: #9d9d9d;
+}
+.navagation .navbar-inverse .navbar-nav>li>a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.navagation .navbar-inverse .navbar-nav>.active>a, .navagation .navbar-inverse .navbar-nav>.active>a:hover, .navagation .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: transparent;
+}
+.navagation .navbar-inverse .navbar-nav>.active>a:after, .navagation .navbar-inverse .navbar-nav>.active>a:hover:after, .navagation .navbar-inverse .navbar-nav>.active>a:focus:after {
+    display: block;
+}
+.navagation .navbar-inverse .navbar-nav > li > a > img{
+    margin: -10px;
+}
+.navagation .navbar-inverse .navbar-nav > li > a span i{
+    margin-left: 3px;
+    font-size: 18px;
+    display: inline-block;
+}
+.videoWrapper{
+
+}
+.videoC{
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    margin: auto;
+
+}
+.videoC .video{
+    padding: 10px;
+    background: #01a3d2;
+    width: 70%;
+    margin: auto;
+}
+.videoC .centernew{
+    width: 80%;
+}
+.videoC .video p{
+    margin: 2px 0;
+    width: 92%;
+    margin: auto;
+    float: left;
+}
+.videoC .video p a{
+    color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 3px;
+    background-color: #06485c;
+}
+
+.videoC h4{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.content{
+    overflow: hidden;
+
+}
+.hoppy , .targets,.stand_on,.objects,.seen,.logos,.messages_us,.taping,.routes,.safira{
+    overflow: hidden;
+    width: 75%;
+    margin: auto;
+}
+
+
+
+.taping h2,.videoC h2, .routes h2,.statistical h2,.parteners h2,
+.hoppy h2,.seen h2,.stand_on h2,.objects h2,.logos h2,.targets h2,
+.saver h2,.messages_us h2,.team h2,.footer h2,.safira h2{
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+    color: #555;
+    font-weight: bold;
+
+}
+
+.taping h2 span i,.videoC h2 span i ,
+.hoppy h2 span i,.seen h2 span i,.stand_on h2 span i,.objects h2 span i,.logos h2 span i,.targets h2 span i,.team h2 span i{
+    margin-left: 10px;
+    font-size: 45px;
+    color: #25D366;
+    display: block;
+    margin: 10px auto;
+}
+.messages_us h2 span i,.taping h2 span i,.routes h2 span i,.footer h2 span i,.safira h2 span i {
+    margin-left: 10px;
+    font-size: 45px;
+    color: #25D366;
+    display: block;
+    margin: 10px auto;
+}
+
+.hoppy p,.seen p,.stand_on p , .seen p,.messages_us p ,.logos p{
+    font-size: 17px;
+}
+.targets p{
+    font-size: 17px;
+}
+
+
+.objects ul li{
+    margin-bottom: 10px;
+}
+
+.targets p span{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    color: #6cdafb;
+}
+
+.logos h4{
+    font-size:17px;
+    color: #25d366;
+}
+.logos h5{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.logos ul.list{
+    padding: 0 40px;
+}
+.stand_on ul,.objects ul{
+    padding: 10px 40px;
+    list-style-type: disc;
+}
+.logos ul.list li {
+    font-size: 16px;
+}
+.logos p{
+    width: 90%;
+}
+.hoppy p{
+    margin: auto;
+    line-height: 35px;
+}
+
+.taping,.routes{width: 90%; margin: auto}
+.taping h2{
+    margin: 40px auto;
+}
+.backgroundClass .content_class{
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 10
+}
+.taping .nav > li > a,.routes .nav > li > a{
+    font-size: 16px;
+    color:#FFF;
+}
+.routes .nav > li > a > span > i,
+.taping .nav > li > a > span > i{
+    font-size: 17px ;
+}
+.taping .nav > li > a:hover, .taping .nav > li > a:focus,.routes .nav > li > a:hover, .routes .nav > li > a:focus{
+    color: #FFF;
+    cursor: default;
+    background-color: #25d366;
+    border: 1px solid #25d366;
+}
+.taping .tab-content{
+    margin: auto;
+    width: 80%;
+}
+.taping div#myCarousel{
+    height: 500px;
+    margin: 20px;
+}
+.taping .nav-tabs,.routes .nav-tabs{
+    background-color: #01a3d2;
+    border-bottom: 1px solid #01a3d2;
+    width: 82%;
+    margin: auto;
+
+}
+.routes .nav-tabs{
+    width: 80%;
+}
+.taping .nav-tabs > li.active > a, .taping .nav-tabs > li.active > a:hover, .taping .nav-tabs > li.active > a:focus,
+.routes .nav-tabs > li.active > a, .routes .nav-tabs > li.active > a:hover, .routes .nav-tabs > li.active > a:focus
+{
+    color: #FFF;
+    cursor: default;
+    background-color: #25d366;
+    border: 1px solid #25d366;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+}
+
+.taping .dropdown-menu li a{
+    padding: 8px 5px;
+}
+.taping .dropdown-menu > .active > a, .taping .dropdown-menu > .active > a:hover, .taping .dropdown-menu > .active > a:focus{
+    background-color: #25d366;
+}
+
+.taping .dropdown-menu > li > a:hover,.taping .dropdown-menu > li > a:focus{
+    color: #FFF;
+    cursor: default;
+    background-color: #25d366;
+    border: 1px solid #25d366;
+    border-bottom-color: rgb(221, 221, 221);
+}
+.taping .tab-content h3,
+.routes .tab-content h3
+{
+    margin: 30px 0;
+    color: #25d366;
+    font-size: 25px;
+    font-weight: bold;
+}
+.taping .tab-content p,.routes .tab-content p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.taping .tab-content p.single_p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: #666;
+}
+.taping .tab-content ul.list-group{
+    width: 80%;
+    margin: auto;
+}
+.taping .tab-content ul.list-group li.list-group-item{
+    margin: 10px 0;
+    border: 1px solid #ccc;;
+}
+
+
+
+/*routes*/
+
+.routes {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.routes .tab-content{
+    width: 80%;
+    margin: auto;
+}
+.routes h2{
+    margin: 40px auto;
+}
+.routes .online h4{
+    margin: 20px 0;
+}
+.routes .online ul{
+    padding: 15px;
+}
+.routes .online ul li {
+    margin: 5px 0;
+}
+.routes .online ul li a{
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+}
+.jk-slider {
+    margin: 40px auto;
+    width: 80%;
+    overflow: hidden;
+
+
+}
+.slidertwo .jk-slider{
+    width: 95%;
+    height: 250px;
+    margin: 0;
+}
+
+.hero {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+
+.hero p {
+    line-height: 1.7em;
+    font-size: 25px;
+}
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: 0.2;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 15px;
+    border: 1px solid #25d366;
+    line-height: 28px;
+    border-radius: 50%;
+    color: #25d366;
+}
+.carousel-indicators {
+    bottom: 70px;
+}
+.carousel-indicators .active {
+    background-color: #25d366;
+}
+.carousel-indicators li {
+    border: 1px solid #25d366;
+}
+
+.safira a{
+    font-size: 25px;
+    text-decoration: underline;
+    color: #404040;
+
+}
+.safira a span i{
+    color: #25d366;
+}
+
+/*sta*/
+.statistical{
+    padding: 40px 0;
+}
+.statistical .statistic span i{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #25D366;
+}
+.statistical .statistic span.numbers{
+    display: block;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #888;
+}
+.statistical .statistic h4{
+    color: #8c8c8c;
+    font-size: 15px;
+}
+.statistical .statistic h4.empty{
+    margin-top: 54px;
+}
+
+
+.parteners{
+    padding: 40px 0;
+    overflow: hidden;
+}
+.parteners h2{
+    margin-bottom: 40px;
+}
+
+span i{
+    margin-left: 10px;
+}
+
+.parteners .partener{
+}
+.parteners .partener img{
+    border: 1px solid #a3d447;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+
+.team h2{
+    margin-bottom: 10px;
+}
+.team img{
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #a3d447;
+    padding:5px;
+}
+.footer {
+    background: #01a3d2;
+    color: #FFF;
+}
+.footer h2 {
+    margin: -10px auto;
+    color: #FFF;
+}
+
+.footer .contact_us ul.list li {
+    margin-bottom: 3px;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+.footer .contact_us ul li span i {
+    font-size: 25px;
+    margin-left: 10px;
+}
+.footer .contact_us ul li span i.fa-whatsapp {
+    color: #00e676;
+}
+.footer .contact_us ul.list-inline li i {
+    font-size: 25px;
+}
+.footer .address p {
+    font-size: 20px;
+    margin: 5px 0;
+    line-height: 30px;
+}
+.footer .address p i {
+    font-size: 20px;
+    margin: 1px 0 0 10px;
+}
+.footer .address a {
+    background-color: #02586d;
+
+    font-size: 18px;
+    margin: 5px auto;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+.footer .address a.hvr-sweep-to-top::before {
+    background-color: #f0965b;
+}
+.footer .owner{
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer .owner  span{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer .finish p {
+    border-top: 2px dotted #4d4c4c;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.footer img{
+    margin-top: -100px;
+}
+
+.modelasr a{
+    margin: 0 10px;
+}
+@media (min-width: 768px ) and (max-width: 992px){
+
+    .navagation .navbar-inverse .navbar-nav > li > a{
+        font-size: 15px;
+    }
+    .topContent .topLogos .toRight{
+        margin-right: 1px;
+    }
+    .middlePage{
+        height: 950px;
+    }
+}
+@media (max-width:768px) {
+    .top .intro h1 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .topContent h1{
+        margin: 40px 0;
+        font-size: 15px;
+    }
+    .topContent .topLogos .toRight{
+        margin-right: 70px;
+    }
+    .topContent .sentences marquee{
+        margin-top: 20px;
+    }
+    .taping h2,.videoC h2, .routes h2,.statistical h2,.parteners h2,
+    .hoppy h2,.seen h2,.stand_on h2,.objects h2,.logos h2,.targets h2,
+    .saver h2,.messages_us h2,.team h2,.footer h2{
+        width: 70%;
+    }
+    .tetsmonails .media-object {
+        margin-top: 0;
+    }
+    .hero h2{
+        font-size: 18px;
+    }
+    .hero h3{
+        font-size: 15px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 383px ) {
+
+
+    .topContent h1{
+        margin: 40px 0;
+        font-size: 15px;
+    }
+
+    .hero h2{
+        font-size: 18px;
+    }
+    .hero h3{
+        font-size: 15px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+    .top .intro h1{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .top .intro p{
+        font-size: 14px;
+    }
+    .testimonials .auther-detalis ul.list li{
+        font-size: 18px;
+    }
+
+    .middlePage{
+        height: 1100px;
+    }
+    .employees .carousel-inner{
+        width: 100%;
+    }
+}
+
+
+
+
+
